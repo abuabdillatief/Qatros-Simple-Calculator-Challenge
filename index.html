@@ -7,20 +7,31 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="styles.css" />
     <title>Calculator Web App</title>
   </head>
   <body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 100 940 185">
+      <path
+        fill="#041D3A"
+        fill-opacity="1"
+        d="M0,288L24,266.7C48,245,96,203,144,186.7C192,171,240,181,288,170.7C336,160,384,128,432,138.7C480,149,528,203,576,229.3C624,256,672,256,720,224C768,192,816,128,864,128C912,128,960,192,1008,186.7C1056,181,1104,107,1152,74.7C1200,43,1248,53,1296,58.7C1344,64,1392,64,1416,64L1440,64L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"
+      ></path>
+    </svg>
+    <img class="mx-auto my-2" src="./assets/qatros.png" alt="" width="45%" />
+
     <div class="higher__container">
       <div class="container">
         <div class="container__title">
-          <h1 class="my-5">Simple Calculator</h1>
+          <h1 class="my-2">Simple Calculator</h1>
         </div>
         <div class="calculator">
-          <table border="1" cellspacing="0">
+          <table>
             <tr>
               <td colspan="5" id="numDisplay">0</td>
+            </tr>
+            <tr>
+              <td colspan="5">===__==__==__==__===</td>
             </tr>
             <tr>
               <td colspan="3">
@@ -60,7 +71,6 @@
       </div>
     </div>
 
-    <img class="mx-auto my-5" src="./assets/qatros.png" alt="" width="40%" />
     <script src="./scripts/helpers.js"></script>
     <script src="./scripts//main.js"></script>
   </body>
