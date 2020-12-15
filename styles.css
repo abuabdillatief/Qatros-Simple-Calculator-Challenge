@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+body {
+  background: #e9dbc4;
+}
+
+.higher__container {
+  margin: 1rem auto;
+  width: 80vw;
+  padding: 1rem;
+  border-radius: 5px;
+  background: #e9dbc4;
+  -webkit-box-shadow: inset 11px 11px 22px #c6baa7, inset -11px -11px 22px #fffce1;
+          box-shadow: inset 11px 11px 22px #c6baa7, inset -11px -11px 22px #fffce1;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70vw;
+  padding: 20px;
+  margin: 1rem auto;
+  border-radius: 5px;
+  background: #fba90e;
+}
+
+.container__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.calculator {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fba90e;
+  -webkit-box-shadow: 11px 11px 22px #d5900c, -11px -11px 22px #ffc210;
+          box-shadow: 11px 11px 22px #d5900c, -11px -11px 22px #ffc210;
+}
+
+.calculator table td > button {
+  font-family: "Josefin Sans", sans-serif;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 30px;
+  margin: 5px;
+}
+/*# sourceMappingURL=styles.css.map */

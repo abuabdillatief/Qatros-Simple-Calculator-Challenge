@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator Web App</title>
+  </head>
+  <body>
+    <div class="higher__container">
+      <div class="container">
+        <div class="container__title">
+          <h1 class="my-5">Simple Calculator</h1>
+        </div>
+        <div class="calculator">
+          <table border="1" cellspacing="0">
+            <tr>
+              <td colspan="5" id="numDisplay">0</td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <button onclick="insertNum(this);">AC</button>
+              </td>
+              <td><button onclick="insertNum(this);">=</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="insertNum(this);">7</button></td>
+              <td><button onclick="insertNum(this);">8</button></td>
+              <td><button onclick="insertNum(this);">9</button></td>
+              <td><button onclick="insertNum(this);">/</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="insertNum(this);">4</button></td>
+              <td><button onclick="insertNum(this);">5</button></td>
+              <td><button onclick="insertNum(this);">6</button></td>
+              <td><button onclick="insertNum(this);">*</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="insertNum(this);">1</button></td>
+              <td><button onclick="insertNum(this);">2</button></td>
+              <td><button onclick="insertNum(this);">3</button></td>
+              <td><button onclick="insertNum(this);">-</button></td>
+            </tr>
+            <tr>
+              <td colspan="2"><button onclick="insertNum(this);">0</button></td>
+              <td><button onclick="insertNum(this);">.</button></td>
+              <td><button onclick="insertNum(this);">+</button></td>
+            </tr>
+          </table>
+          <br />
+          <br />
+
+          <div class="calculator__grid"></div>
+        </div>
+      </div>
+    </div>
+
+    <img class="mx-auto my-5" src="./assets/qatros.png" alt="" width="40%" />
+    <script src="./scripts/helpers.js"></script>
+    <script src="./scripts//main.js"></script>
+  </body>
+</html>
