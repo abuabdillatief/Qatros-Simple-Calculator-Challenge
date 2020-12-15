@@ -44,15 +44,16 @@ body {
   box-shadow: 11px 11px 22px #d5900c, -11px -11px 22px #ffc210;
 
   table {
+    color: black;
     #numDisplay {
       overflow: scroll;
       background-color: #ffc210;
-      padding: 5px;
+      padding: 10px;
       border-radius: 5px;
     }
     button {
       font-family: "Josefin Sans", sans-serif;
-      border: solid 1px black;
+      border: solid 1px white;
       border-radius: 5px;
       width: 30px;
       margin: 5px;
